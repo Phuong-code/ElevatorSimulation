@@ -1,0 +1,127 @@
+{
+  "commands": [],
+  "elevators": [
+    {
+      "id": 1,
+      "currentFloor": 5,
+      "currentState": "DOWN",
+      "command": "move",
+      "running": true,
+      "log": {},
+      "elevatorCommands": [
+        "8:9",
+        "8:2",
+        "3:2"
+      ],
+      "floorStops": [
+        1
+      ],
+      "update": true,
+      "loaded": false
+    },
+    {
+      "id": 2,
+      "currentFloor": 8,
+      "currentState": "UP",
+      "command": "UP",
+      "running": true,
+      "log": {},
+      "elevatorCommands": [
+        "4:6",
+        "5:9"
+      ],
+      "floorStops": [
+        10,
+        8,
+        6,
+        2,
+        1
+      ],
+      "update": true,
+      "loaded": false
+    },
+    {
+      "id": 3,
+      "currentFloor": 6,
+      "currentState": "UP",
+      "command": "UP",
+      "running": true,
+      "log": {},
+      "elevatorCommands": [],
+      "floorStops": [
+        10,
+        9,
+        8,
+        5,
+        2,
+        1
+      ],
+      "update": false,
+      "loaded": false
+    }
+  ],
+  "scheduler": {
+    "elevators": [
+      {
+        "id": 1,
+        "currentFloor": 5,
+        "currentState": "DOWN",
+        "command": "move",
+        "running": true,
+        "log": {},
+        "elevatorCommands": [
+          "8:9",
+          "8:2",
+          "3:2"
+        ],
+        "floorStops": [
+          1
+        ],
+        "update": true,
+        "loaded": false
+      },
+      {
+        "id": 2,
+        "currentFloor": 8,
+        "currentState": "UP",
+        "command": "UP",
+        "running": true,
+        "log": {},
+        "elevatorCommands": [
+          "4:6",
+          "5:9"
+        ],
+        "floorStops": [
+          10,
+          8,
+          6,
+          2,
+          1
+        ],
+        "update": true,
+        "loaded": false
+      },
+      {
+        "id": 3,
+        "currentFloor": 6,
+        "currentState": "UP",
+        "command": "UP",
+        "running": true,
+        "log": {},
+        "elevatorCommands": [],
+        "floorStops": [
+          10,
+          9,
+          8,
+          5,
+          2,
+          1
+        ],
+        "update": false,
+        "loaded": false
+      }
+    ]
+  },
+  "minFloor": 1,
+  "maxFloor": 10
+}

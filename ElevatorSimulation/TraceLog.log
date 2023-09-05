@@ -1,0 +1,9 @@
+11:24:08.241 [Thread-2] TRACE com.fdm.elevator.ElevatorLogging - Elevator 1 is at level 5
+11:24:08.241 [Thread-3] TRACE com.fdm.elevator.ElevatorLogging - Elevator 2 is at level 8
+11:24:08.241 [Thread-4] TRACE com.fdm.elevator.ElevatorLogging - Elevator 3 is at level 6
+11:24:09.247 [Thread-4] TRACE com.fdm.elevator.ElevatorLogging - Elevator 3 is at level 7
+11:24:09.247 [Thread-2] TRACE com.fdm.elevator.ElevatorLogging - Elevator 1 is at level 4
+11:24:09.247 [Thread-3] TRACE com.fdm.elevator.ElevatorLogging - Elevator 2 is at level 9
+11:24:10.249 [Thread-4] TRACE com.fdm.elevator.ElevatorLogging - Elevator 3 is at level 8
+11:24:10.257 [Thread-2] TRACE com.fdm.elevator.ElevatorLogging - Elevator 1 is at level 3
+11:24:10.257 [Thread-3] TRACE com.fdm.elevator.ElevatorLogging - Elevator 2 is at level 10

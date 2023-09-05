@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn" monitorInterval="30">
+	<Appenders>
+		<Console name="StdOut" target="SYSTEM_OUT">
+			<PatternLayout pattern="%msg%n" />
+		</Console>
+		<File name="TraceAppender" filename="TestTraceLog.log">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</File>
+		<File name="CommandAppender" filename="TestCommandLog.log">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</File>
+	</Appenders>
+	<Loggers>
+		# Set level
+		<Root level="info">
+			<AppenderRef ref="StdOut" level="info"/>
+		</Root>
+		<Logger name="com.fdm.elevator.ElevatorLogging" level="trace" >
+			<AppenderRef ref="TraceAppender" level="trace" />
+			<AppenderRef ref="CommandAppender" level="info"/>
+		</Logger>
+	</Loggers>
+</Configuration>

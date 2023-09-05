@@ -1,0 +1,81 @@
+{
+  "commands": [
+    "1:3",
+    "2:5",
+    "4:2"
+  ],
+  "elevators": [
+    {
+      "id": 1,
+      "currentFloor": 0,
+      "currentState": "STATIONARY",
+      "running": true,
+      "log": {},
+      "elevatorCommands": [],
+      "floorStops": [],
+      "update": false,
+      "loaded": false
+    },
+    {
+      "id": 2,
+      "currentFloor": 0,
+      "currentState": "STATIONARY",
+      "running": true,
+      "log": {},
+      "elevatorCommands": [],
+      "floorStops": [],
+      "update": false,
+      "loaded": false
+    },
+    {
+      "id": 3,
+      "currentFloor": 0,
+      "currentState": "STATIONARY",
+      "running": true,
+      "log": {},
+      "elevatorCommands": [],
+      "floorStops": [],
+      "update": false,
+      "loaded": false
+    }
+  ],
+  "scheduler": {
+    "elevators": [
+      {
+        "id": 1,
+        "currentFloor": 0,
+        "currentState": "STATIONARY",
+        "running": true,
+        "log": {},
+        "elevatorCommands": [],
+        "floorStops": [],
+        "update": false,
+        "loaded": false
+      },
+      {
+        "id": 2,
+        "currentFloor": 0,
+        "currentState": "STATIONARY",
+        "running": true,
+        "log": {},
+        "elevatorCommands": [],
+        "floorStops": [],
+        "update": false,
+        "loaded": false
+      },
+      {
+        "id": 3,
+        "currentFloor": 0,
+        "currentState": "STATIONARY",
+        "running": true,
+        "log": {},
+        "elevatorCommands": [],
+        "floorStops": [],
+        "update": false,
+        "loaded": false
+      }
+    ]
+  },
+  "minFloor": 1,
+  "maxFloor": 10
+}
