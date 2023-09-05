@@ -1,5 +1,9 @@
 # ElevatorSimulation
 
+## Overview
+
+This is an elevator simulation project (using Java) designed to demonstrate the functionality and behavior of an elevator system in a building. The project simulates the movement of elevators within a multi-story building, taking into account user requests, elevator capacities, and real-time scheduling to optimize elevator operations.
+
 ## Instructions
 
 To run a clean start
